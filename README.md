@@ -1,4 +1,6 @@
 # Elemental Wars
+**Disclaimer:** This repository showcases only the specific parts of the 'Elemental Wars' project that I personally contributed to. For confidentiality and proprietary reasons, certain code segments have been stripped down or modified. The intention is to provide an understanding of the overall essence without revealing sensitive or detailed information.
+
 Welcome to the repository for Elemental Wars, a 2D card-based combat game where units harness the power of 18 different elements! Dive into 3v3 combats, unlock unique elemental units, and strategize your way to victory.
 ## Features
 ### Skill Casting System
@@ -16,3 +18,6 @@ Welcome to the repository for Elemental Wars, a 2D card-based combat game where 
 - These diagrams ensure maintainability, scalability, and a structured development approach.
 ### Gameplay Demonstration Video
 - Added a 1-minute gameplay demonstration video to the repository to provide a glimpse of the combat dynamics and elemental interactions.
+### Continuous Maintenance and Bug Fixes
+- Actively participated in the maintenance of the project, ensuring smooth game operations.
+- Worked in close collaboration with a team of 7-8 members, fixing numerous bugs and enhancing gameplay experience.
