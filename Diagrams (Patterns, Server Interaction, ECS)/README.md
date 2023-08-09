@@ -4,9 +4,9 @@ Hello and welcome to my class dependency diagramming portfolio! Here, I've showc
 [**Click here to view the diagrams**](https://miro.com/app/board/uXjVMv5eKEQ=/?share_link_id=135373466155)
 
 ## 1. Registration module
-**Description:**
+### Description:
 The registration module diagram is designed to represent the user's journey from the start of the registration process to its completion.
-**Key Features:**
+### Key Features:
 
 - Utilizes the State Machine Pattern.
 
@@ -19,29 +19,32 @@ The registration module diagram is designed to represent the user's journey from
 
 This approach ensures that the registration process is intuitive and seamless for the user, while also being maintainable and scalable from a development perspective.
 ## 2. Quests
-**Description:**
+### Description:
 This diagram provides a comprehensive view of the quests feature, detailing how quests are structured, initiated, and completed.
 
-**Key Features:**
+### Key Features:
 
 - Describes the interaction with the server.
 - Illustrates how information from the server reaches the game directly.
 - Ensures that quests are dynamic and engaging for the player.
 
 ## 3. Battle Scheme
-**Description:**
-The battle scheme diagram offers a deep dive into the mechanics of in-game battles, showcasing the flow of battle events and interactions.
+### Description:
+The battle scheme diagram delves deep into the intricacies of in-game battles. It meticulously outlines every stage of a battle, ensuring that both the player's experience and the server's understanding of the battle are synchronized and seamless.
 
-**Key Features:**
+### Key Features:
 
-- Highlights the server-game interaction.
-- Provides a clear understanding of how battles are initiated, progressed, and concluded.
-- Ensures that battles are both challenging and rewarding for players.
+- **Turn Management:** Clearly indicates whose turn it is to attack, ensuring that players are always aware of the battle's flow.
+- **Disconnect & Reconnect Handling:** Describes the process of loading data in the event of a disconnect, ensuring that players can seamlessly rejoin the battle without any loss of progress.
+- **Server Communication:** Illustrates how information is sent to and received from the server. This ensures that the server is always updated about the current stage of the battle, down to the very second.
+- **Animation Timing:** Provides insights into the duration of each animation, ensuring that the server understands the exact timing and sequence of events during a battle.
+
+This comprehensive approach guarantees that battles are not only engaging for players but also robust and fault-tolerant from a technical perspective.
   ## 4. Skill Strategies
-**Description:**
+### Description:
 For the skills feature, I've designed a diagram that emphasizes the flexibility and diversity of in-game skills.
 
-**Key Features:**
+### Key Features:
 
 - Implements the Strategy Pattern.
 - Demonstrates that any skill can be invoked using the same method by passing parameters like skill id, initiator unit, target unit, and cast duration.
